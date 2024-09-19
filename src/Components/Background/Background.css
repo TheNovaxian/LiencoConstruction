@@ -1,0 +1,56 @@
+.background{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100vw;
+    height: 100vh; /* Full height */
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url('./image1.jpg') no-repeat center center; /* Prevent repeating */
+    background-size: cover; /* Ensure the image covers the entire area */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Layer behind other content */
+}
+
+.frontbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 50vh; /* Full viewport height */
+    width: 50%; /* Full viewport width */
+    position: relative; /* Position relative to the container */
+    opacity: 0.8;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 500
+}
+
+h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 500
+}
+
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+button{
+    padding: 20px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+}
