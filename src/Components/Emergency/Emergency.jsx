@@ -34,7 +34,7 @@ const Emergency = () => {
     const getEmergencyNumber = (latitude, longitude) => {
         // Add logic to determine phone number based on proximity
         // This could be a lookup in a database or a simple conditional
-        const emergencyNumber = '14387783730'
+        const emergencyNumber = '15146633754'
         // For example:
         if (latitude && longitude) {
             // Example condition based on arbitrary proximity logic
