@@ -3,8 +3,8 @@ import Background from "./Components/Background/Background";
 import Navbar from "./Components/Navbar/Navbar";
 import About from "./Components/About/About";
 import './App.css';
-import Assessment from "./Pages/Assessment";
-import Contact from "./Pages/Contact";
+import Assessment from "./Components/Assessment/Assessment";
+import Contact from "./Components/Contact/Contact";
 const App = () => {
   return (
     <Router>
