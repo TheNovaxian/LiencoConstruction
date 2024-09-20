@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Home from "./Components/Background/Home";
 import Navbar from "./Components/Navbar/Navbar";
 import About from "./Components/About/About";
@@ -14,6 +14,7 @@ const App = () => {
       <div>
         <Navbar /> {/* Navbar is always visible */}
         <Routes>
+        <Route path="/" element={<Navigate to="/Home" />} />
           <Route path="/Home" element={<Home />} /> {/* Home route */}
           <Route path="/about" element={<About />} /> {/* About route */}
           <Route path="/assessment" element={<Assessment />} /> {/* Third route */}
