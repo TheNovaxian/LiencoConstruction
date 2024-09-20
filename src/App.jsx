@@ -6,6 +6,7 @@ import './App.css';
 import Assessment from "./Components/Assessment/Assessment";
 import Contact from "./Components/Contact/Contact";
 import pop from "./Components/Popup/Popup";
+import 'ionicons/dist/ionicons.js';
 
 const App = () => {
   return (

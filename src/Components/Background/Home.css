@@ -14,7 +14,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -1; /* Layer behind other content */
+    z-index: -1; 
 }
 
 .frontbox {
@@ -89,3 +89,4 @@ button{
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
+

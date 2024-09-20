@@ -53,9 +53,12 @@ const Emergency = () => {
 
 
   return (
+   
+        
     <button className="emergency" onClick={handleEmergencyClick}>
             Emergency
         </button>
+   
   )
 }
 

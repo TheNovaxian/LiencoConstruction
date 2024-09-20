@@ -8,6 +8,7 @@
     border-radius: 5px;
     cursor: pointer;
     animation: blink 1s infinite; /* Blink animation */
+    box-shadow: 0 0 70px rgba(255, 10, 10, 1.8);
 }
 
 @keyframes blink {
@@ -21,3 +22,4 @@
         opacity: 1;
     }
 }
+
